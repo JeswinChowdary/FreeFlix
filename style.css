@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(82, 77, 77)
+}
+.top-logo-bar {
+    margin-top: 10px;
+    height: 170px;
+    width: 100vw;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+.logo {
+    height: 100%;
+}
+.navbar { 
+    margin-top: 10px;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a {
+    text-decoration: none;
+    width: 90px;
+    height: 80%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: 300ms ease-in-out;
+}
+.navbar a:hover {
+    color: salmon;
+    background: rgba(256, 256, 256, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.movies-container {
+    width: 80%;
+    margin-left: 10%;
+    height: 1000px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    column-gap: 2%;
+    row-gap: 5%;
+    grid-auto-rows: 350px;
+}
+.movie-banner {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.movie-banner:hover {
+    border-radius: 30px;
+}
+.banner-image {
+    height: 100%;
+}
+.movie-banner a {
+    height: 80%;
+}
+.movie-banner span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.lang-highlight {
+    color: salmon !important;
+    background: rgba(256, 256, 256, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}

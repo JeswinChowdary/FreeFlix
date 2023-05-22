@@ -1,0 +1,156 @@
+@media all and (max-width: 1600px) {
+    .movies-container {
+        grid-auto-rows: 290px;
+    }
+    .movie-banner span {
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 1500px) {
+    .movies-container {
+        grid-auto-rows: 260px;
+    }
+    .movie-banner span {
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 1300px) {
+    .movies-container {
+        grid-auto-rows: 245px;
+    }
+    .movie-banner span {
+        font-size: 9px;
+    }
+}
+@media all and (max-width: 1220px) {
+    .movies-container {
+        grid-auto-rows: 230px;
+    }
+    .movie-banner span {
+        font-size: 8px;
+    }
+}
+@media all and (max-width: 1100px) {
+    .movies-container {
+        grid-auto-rows: 210px;
+    }
+    .movie-banner span {
+        font-size: 7px;
+    }
+}
+@media all and (max-width: 1000px) {
+    .movies-container {
+        grid-auto-rows: 180px;
+    }
+    .movie-banner span {
+        font-size: 6px;
+    }
+}
+@media all and (max-width: 900px) {
+    .navbar {
+        height: 40px;
+    }
+    .movies-container {
+        grid-template-columns: 45% 45%;
+        column-gap: 5%;
+        row-gap: 5%;
+        grid-auto-rows: 370px;
+    }
+    .movie-banner span {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 800px) {
+    .top-logo-bar {
+        height: 140px;
+    }
+    .movies-container {
+        grid-auto-rows: 350px;
+    }
+}
+@media all and (max-width: 750px) {
+    .movie-banner span {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 700px) {
+    .navbar {
+        height: 35px;
+    }
+    .navbar a {
+        font-size: 15px;
+    }
+    .movies-container {
+        grid-auto-rows: 300px;
+    }
+    .movie-banner span {
+        font-size: 11px;
+    }
+} 
+@media all and (max-width: 650px) {
+    .top-logo-bar {
+        height: 110px;
+    }
+    .movies-container {
+        /* EMPTY FOR NOW */
+    }
+}
+@media all and (max-width: 600px) {
+    .navbar {
+        height: 30px;
+    }
+    .navbar a {
+        font-size: 12px;
+    }
+    .movies-container {
+        grid-auto-rows: 250px;
+    }
+    .movie-banner span {
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 500px) {
+    .top-logo-bar {
+        height: 90px;
+    }
+    .navbar {
+        height: 25px;
+    }
+    .navbar a {
+        font-size: 10px;
+    }
+    .movies-container {
+        margin-top: 20px;
+    }
+    .movies-container {
+        grid-auto-rows: 220px;
+    }
+    .movie-banner span {
+        font-size: 8px;
+    }
+}
+@media all and (max-width: 400px) {
+    .top-logo-bar {
+        height: 70px;
+    }
+    .navbar {
+        height: 20px;
+    }
+    .navbar a {
+        font-size: 8px;
+    }
+    .movies-container {
+        margin-top: 15px;
+    }
+    .movies-container {
+        grid-auto-rows: 180px;
+    }
+    .movie-banner span {
+        font-size: 6px;
+    }
+}
+@media all and (max-width: 350px) {
+    .movies-container {
+        grid-auto-rows: 140px;
+    }
+}
